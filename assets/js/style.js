@@ -4,7 +4,35 @@
 // api for 5 day forecast api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}
 // UV index found here https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
 
-// cont API = "012954b21ea1183b476f24736bd1bfdd"
+var url = "https://api.openweathermap.org";
+const apiKey = "012954b21ea1183b476f24736bd1bfdd";
+var searchHistory = [];
+
+// DOM elements
+
+var searchForm = document.querySelector("#search-form");
+var searchInput = document.querySelector("#search-input");
+var todayContainer = document.querySelector("#display-current");
+var forecastContainer = document.querySelector("#forecast");
+var searchHistoryContainer = document.querySelector("#history");
+
+//Forecast url
+
+var todaysForecastUrl =
+  "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
+var fiveDayForecastUrl =
+  "api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}";
+var uvIndexUrl =
+  "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}";
+
+//FUNCTIONS
+
+//displayHistory();
+//updateHistory();
+//clearHistory();
+//fetchCurrent();
+//fetchForecast();
+//fetchUvIndex();
 
 // fetch(
 //   "https://api.openweathermap.org/data/2.5/forecast?q=London&appid=012954b21ea1183b476f24736bd1bfdd"
@@ -17,11 +45,3 @@
 //       $data.list[i * 8].main.humidity;
 //     }
 //   });
-
-// fetch (
-//     "api.openweathermap.org/data/2.5/weather?q={city name}&appid=" + api)
-
-//var lat =
-//var exclude = "minutely,hourly,daily,alerts"
-
-// UV fetch("https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=" + exclude + "&appid=" + API)
