@@ -1,0 +1,35 @@
+.jumbotron {
+  text-align: center;
+  background-color: rgb(65, 0, 59);
+  color: white;
+  width: 100%;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.side-bar {
+  background-color: goldenrod;
+  padding: 20px;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: medium;
+  margin: 10px, 10px, 10px, 10px;
+  padding-left: 10%;
+  background-color: goldenrod;
+}
+
+#search-form {
+  padding-left: 10%;
+  background-color: goldenrod;
+}
+
+.form-input {
+  position: inherit;
+}

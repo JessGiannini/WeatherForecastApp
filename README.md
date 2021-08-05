@@ -18,7 +18,7 @@ The code for this particular project was challenging. This section in particular
 
 ## Authors
 
-- **Jessica Giannini**
+**Jessica Giannini**
 
 * [Link to Portfolio Site](https://jessgiannini.github.io/WebDeveloperPortfolio/)
 * [Link to Github](https://github.com/jessgiannini)
