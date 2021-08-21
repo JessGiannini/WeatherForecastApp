@@ -26,9 +26,9 @@
                     <div class="form-inline form-group">
                         <div class="input-group">
                             <input class="form-input weather-search" type="text" id="search-input"
-                                placeholder="San Diego"/>
+                                placeholder="San Diego" />
                             <div class="input-group-append">
-                                <button type="submit" class="btn search-button" id="search-button">
+                                <button type="submit" class="btn" id="search-button">
                                     Search
                                 </button>
                                 <button type="click" class="btn">Clear</button>
@@ -40,19 +40,22 @@
                 </form>
                 <div class="list-group" id="history"></div>
             </aside>
-        <div class="col-9 display-current">
-          <h3 id="current-location"></h3>
-          <img id="icon">
-          <p id="current-temp"></p>
-          <p id="current-wind"></p>
-          <p id="current-hum"></p>
-          <p id="current-uv">
-              <span class="text"></span>
-              <span class="uv-color"></span>
-    
-          </p>
-    
-         </div>
+            <!-- <div class="card"> -->
+            <div class="card card-body col-9 d-inline-flex flex-column justify-content-between display-current">
+                <h3 id="current-location"></h3>
+                <img id="icon">
+                <p id="current-temp"></p>
+                <p id="current-wind"></p>
+                <p id="current-hum"></p>
+                <p id="current-uv">
+                    <span class="uvi"></span>
+                    <!-- <span class="uv-color"></span> -->
+                </p>
+                <p id="current-date"></p>
+
+
+            </div>
+            <!-- </div> -->
             <div class="row">
                 <div class="col-3 search history" id="history">
                 </div>
@@ -60,12 +63,12 @@
                 <div class="col-9 row card-forecast" id="forecast">
                 </div>
 
-    </div>
+            </div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/js/style.js"></script>
 
 </html>

@@ -33,3 +33,10 @@
 .form-input {
   position: inherit;
 }
+
+.display-current{
+  border: solid 5px black !important;
+  text-align: center;
+  background-color: cadetblue;
+  align-items: center;
+}
